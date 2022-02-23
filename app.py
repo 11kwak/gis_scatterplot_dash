@@ -13,13 +13,13 @@ import plotly.graph_objs as go
 app = dash.Dash(__name__)
 
 # mapbox_access_token = 'insert_your_mapbox_token_here'
-mapbox_access_token = ""
+mapbox_access_token = " "
 
 # blackbold
 blackbold={'color':'black', 'font-weight': 'bold'}
 
 #load data
-df = pd.read_csv("./data/test.csv",encoding="cp949")
+df = pd.read_csv("./data/data.csv",encoding="cp949")
 
 app.layout = html.Div([
 #---------------------------------------------------------------
