@@ -112,7 +112,7 @@ def update_figure(chosen_boro,chosen_recycling):
             clickmode= 'event+select',
             hovermode='closest',
             hoverdistance=2,
-            title=dict(text="KALIS 12종시설물 교량 상세제원",font=dict(size=50, color='green')),
+            title=dict(text="scatterplot dash 탬플릿입니다.",font=dict(size=50, color='green')),
             mapbox=dict(
                 accesstoken=mapbox_access_token,
                 bearing=25,
